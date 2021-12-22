@@ -1,0 +1,17 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /home/ivan-arhipych/vivado/vivado/Vivado/2021.1/bin/unwrapped/lnx64.o/xelab -wto 3514483129bd4650938e6e36b8c67f32 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.p
+Compiling architecture rtl of entity xil_defaultlib.polynomial3 [polynomial3_default]
+Compiling architecture rtl of entity xil_defaultlib.test
+Built simulation snapshot test_behav

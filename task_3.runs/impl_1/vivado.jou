@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Dec 22 16:08:20 2021
+# Process ID: 12337
+# Current directory: /home/ivan-arhipych/vivado/tasks/task_3/task_3.runs/impl_1
+# Command line: vivado -log polynomial3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source polynomial3.tcl -notrace
+# Log file: /home/ivan-arhipych/vivado/tasks/task_3/task_3.runs/impl_1/polynomial3.vdi
+# Journal file: /home/ivan-arhipych/vivado/tasks/task_3/task_3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source polynomial3.tcl -notrace
