@@ -4,7 +4,7 @@ use ieee.std_logic_arith.all;
 
 package p is 
     constant N : integer := 32; -- количество бит для чисел
-    constant M : integer := 4; -- количество коэффициентов
+    constant M : integer := 5; -- количество коэффициентов
     
     type arr is array (0 to M) of unsigned (N - 1 downto 0);
     type arr_arr is array (0 to 2 * M - 3) of arr;

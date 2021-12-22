@@ -88,11 +88,15 @@ begin
 --    delay(5, clk);
 
     -- 538, 413
-    in_tdata <= (conv_unsigned(4, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
---    right_result <= res((conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N)));
-    delay(1, clk);
-    in_tdata <= (conv_unsigned(3, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
-    delay(7, clk);
+--    in_tdata <= (conv_unsigned(4, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
+----    right_result <= res((conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N)));
+--    delay(1, clk);
+--    in_tdata <= (conv_unsigned(3, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
+--    delay(7, clk);
+
+    -- 31
+    in_tdata <= (conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N));
+    delay(9, clk);
     
     in_tvalid <= '0';
 
