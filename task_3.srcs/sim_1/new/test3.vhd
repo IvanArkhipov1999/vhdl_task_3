@@ -61,7 +61,7 @@ begin
 --    in_tdata <= (conv_unsigned(2, N), conv_unsigned(6, N), conv_unsigned(5, N));
 --    delay(1, clk);
 --    in_tdata <= (conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
---    delay(1, clk);
+--    delay(4, clk);
 --    in_tvalid <= '0';
     
 --    -- 23 and 14
@@ -85,18 +85,18 @@ begin
 --    in_tdata <= (conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
 --    delay(1, clk);
 --    in_tdata <= (conv_unsigned(3, N), conv_unsigned(1, N), conv_unsigned(4, N), conv_unsigned(5, N));
---    delay(5, clk);
-
-    -- 538, 413
---    in_tdata <= (conv_unsigned(4, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
-----    right_result <= res((conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N)));
---    delay(1, clk);
---    in_tdata <= (conv_unsigned(3, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
 --    delay(7, clk);
 
+    -- 538, 413
+    in_tdata <= (conv_unsigned(4, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
+--    right_result <= res((conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N)));
+    delay(1, clk);
+    in_tdata <= (conv_unsigned(3, N), conv_unsigned(1, N), conv_unsigned(2, N), conv_unsigned(3, N), conv_unsigned(5, N));
+    delay(30, clk);
+
     -- 31
-    in_tdata <= (conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N));
-    delay(9, clk);
+--    in_tdata <= (conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(1, N), conv_unsigned(2, N));
+--    delay(15, clk);
     
     in_tvalid <= '0';
 
